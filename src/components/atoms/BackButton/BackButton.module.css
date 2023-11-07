@@ -1,0 +1,14 @@
+.BackButton {
+  width: 100px;
+  height: 23px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.BackButton:hover,
+.BackButton:focus {
+  border: 1px solid orange;
+  color: orange;
+}
