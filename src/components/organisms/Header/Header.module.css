@@ -1,0 +1,12 @@
+.Header {
+  max-width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.HeaderNav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+}

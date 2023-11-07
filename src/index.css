@@ -13,3 +13,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+a,
+input {
+  outline: none;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+a.active {
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
