@@ -1,0 +1,19 @@
+.More {
+  max-width: 1280px;
+  margin: 10px 0;
+  border: 1px solid;
+  border-left: 0;
+  border-right: 0;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.Title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.Item {
+  margin-bottom: 5px;
+  font-size: 16px;
+}

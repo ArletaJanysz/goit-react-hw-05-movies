@@ -1,0 +1,33 @@
+.Form {
+  padding: 10px 20px;
+}
+
+.Input {
+  width: auto;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.Input::placeholder {
+  color: orange;
+}
+
+.Input:focus-within {
+  border-color: orange;
+  color: black;
+}
+
+.Button {
+  width: 150px;
+  font-size: 20px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.Button:hover {
+  border: 1px dotted orange;
+  background-color: rgba(150, 86, 13, 0.216);
+}

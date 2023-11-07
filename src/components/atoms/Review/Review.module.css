@@ -1,0 +1,13 @@
+.ReviewItem {
+  padding: 5px 10px;
+}
+
+.ReviewAuthor {
+  margin: 10px 0px;
+  font-size: 21px;
+}
+
+.ReviewDescription {
+  margin: 10px 0px;
+  font-size: 18px;
+}

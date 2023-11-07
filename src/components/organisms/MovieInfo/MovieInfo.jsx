@@ -4,7 +4,11 @@ import { BackButton } from 'components/atoms/BackButton/BackButton';
 import { MovieData } from 'components/molecules/MovieData/MovieData';
 import { MovieMoreInfo } from 'components/atoms/MovieMoreInfo/MovieMoreInfo';
 
-import { fetchDetailsMovie } from 'services/fetchFromApi';
+import React, { useState, useRef, useEffect } from 'react';
+import { useParams, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
+import { fetchDetailsMovie } from '../../API/fetchFromApi';
 
 const MovieInfo = () => {
   const { id } = useParams();

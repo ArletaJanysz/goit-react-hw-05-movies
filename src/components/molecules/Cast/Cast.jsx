@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 
 import { CastMember } from 'components/atoms/CastMember/CastMember';
 
-import { fetchDetailsMovie } from 'services/fetchFromApi';
+import { fetchDetailsMovie } from '../../API/fetchFromApi';
 
 import styles from './Cast.module.css';
 
