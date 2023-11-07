@@ -1,0 +1,45 @@
+.Container {
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 10 20px;
+  margin: 0 auto;
+}
+
+.Image {
+  max-width: 40%;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.Title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.Average {
+  font-size: 14px;
+  background-color: orange;
+  border-radius: 5px;
+  min-width: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.Div {
+  border-top: 0.5px solid #0000006d;
+}
+
+.Key {
+  font-size: 28px;
+}
+
+.Value {
+  font-size: 20px;
+}
