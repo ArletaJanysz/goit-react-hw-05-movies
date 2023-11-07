@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
-import { Review, NoReviews } from 'components/atoms/Review/Review';
+import { Review } from 'components/atoms/Review/Review';
+import { NoReview } from 'components/atoms/NoReview/NoReview';
 
 import { fetchDetailsMovie } from '../../API/fetchFromApi';
 
@@ -33,7 +34,7 @@ export const Reviews = () => {
         ))
       ) : (
         <li>
-          <NoReviews />
+          <NoReview />
         </li>
       )}
     </ul>
