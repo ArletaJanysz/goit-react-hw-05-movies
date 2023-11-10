@@ -23,6 +23,7 @@ code {
 ul,
 ol {
   list-style: none;
+  padding: 10px 30px;
 }
 
 button {
@@ -41,5 +42,9 @@ a:visited {
 }
 a.active {
   color: rgb(255, 0, 55);
-font-weight: bold;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 20px;
 }

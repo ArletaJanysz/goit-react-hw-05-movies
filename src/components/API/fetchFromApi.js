@@ -1,6 +1,6 @@
 const API_KEY =
   'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMWY5OGU1YjA5ZTk0OWEwZWNkNjFmZjVjZjQ4NzcwOCIsInN1YiI6IjY1NGEyMzg2NjdiNjEzMDBlNWRiZWU2YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._IymMCQvVDtuF5JQ2rSGqYHKHWFjtr9CChelxaTcWxM';
-const API_URL = 'https://api.themoviedb.org/';
+const API_URL = 'https://api.themoviedb.org/3/';
 const DEFAULT_PAGE = { page: 1 };
 
 const options = {
