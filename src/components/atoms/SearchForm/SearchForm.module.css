@@ -10,24 +10,26 @@
 }
 
 .Input::placeholder {
-  color: orange;
+  color: rgb(68, 68, 68);
+  padding: 3px;
 }
 
 .Input:focus-within {
-  border-color: orange;
+  border-color: rgb(0, 110, 255);
   color: black;
 }
 
 .Button {
   width: 150px;
   font-size: 20px;
-  border: 1px solid orange;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
-  background-color: transparent;
+  background: linear-gradient(to bottom, #808080, #d3d3d3);
   margin-left: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .Button:hover {
-  border: 1px dotted orange;
+  border: 1px dotted rgb(255, 0, 55);
   background-color: rgba(150, 86, 13, 0.216);
 }

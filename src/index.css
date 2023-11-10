@@ -40,7 +40,6 @@ a:visited {
   color: inherit;
 }
 a.active {
-  color: orange;
-  border: 1px solid orange;
-  border-radius: 5px;
+  color: rgb(255, 0, 55);
+font-weight: bold;
 }
